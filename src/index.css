@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+.navbar-brand {
+  color: purple !important;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: purple !important;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid purple;
+}
+
+.btn-get-started {
+  text-decoration: none;
+  border: 1px solid purple;
+  color: purple;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.btn-get-started:hover {
+  font-weight: bold;
+  color: white;
+  background-color: purple;
+}
+
+.brand-name {
+  color: purple;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+footer {
+  padding: 15px 0 4px;
+  margin-top: 15px;
+}
